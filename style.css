@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* Shared Item */
+.btn {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 132px;
+
+    /* Header Section Design */
+}
+
+head {
+    background-color: rgba(255, 144, 14, 0.10);
+
+}
+
+
+.container {
+    background-color: rgba(255, 144, 14, 0.10);
+    display: flex;
+    flex-direction: column;
+    /* width: 70%; */
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 30px 150px;
+}
+
+.container>.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.container .navbar ul {
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+}
+
+
+.banner {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 20px;
+}
+
+.banner p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+    line-height: 25px;
+}
+
+.banner>img {
+    width: 100%;
+    height: auto;
+
+}
+
+/* Top Main Section Design */
+
+.top-main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 180px;
+    gap: 50px;
+
+}
+
+/* .top-main-section .image-section{
+    display: flex;
+    gap: 5px;
+} */
+
+.column {
+    display: flex;
+    gap: 10px;
+}
+
+.top-main-section .image-section img {
+    width: 250px;
+    height: auto;
+}
+
+.feature-section h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #727272;
+}
+
+.feature-section .black {
+    font-weight: 700;
+    color: #131313
+}
+
+.feature-section .gray {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.feature-section p {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+/* Middle Main Section */
+
+.middle-main-section {
+    display: flex;
+    padding: 30px 180px;
+    gap: 80px;
+
+
+}
+
+.middle-main-section img {
+    width: 100%;
+    height: 796px;
+
+}
+
+
+
+.middle-main-section .left-section {
+    flex-basis: 50%;
+
+}
+
+.middle-main-section h3 {
+    color: #131313;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 0px;
+}
+
+p {
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.middle-main-section h4 {
+    color: #131313;
+    margin: 0px;
+    font-size: 20px;
+
+    font-weight: 600;
+
+}
+
+.middle-main-section .card {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.middle-main-section .right-section {
+    flex-basis: 50%;
+}
+
+.father {
+    position: relative;
+}
+
+.middle-main-section .experience {
+    background-color: #FF900E;
+    border-radius: 8px;
+    width: 200px;
+    position: absolute;
+    color: #FFF;
+    line-height: 25px;
+    text-align: center;
+    padding: 20px;
+    top: 93%;
+    right: 66%;
+}
+
+.middle-main-section .right-section .expe {
+    font-size: 1rem;
+    font-weight: 500;
+
+
+}
+
+/* Top bottom Main Section */
+
+.top-bottom-main-section {
+    padding: 30px 180px;
+
+}
+
+.top-bottom-main-section .facts h1,.bottom-main-section h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.top-bottom-main-section .facts {
+    width: 50%;
+}
+
+.projects-1 .awards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.projects-1 .projects{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 20px;
+    flex-basis: 15%;
+}
+
+.projects-1 .projects *{
+    margin: 0;
+}
+
+
+/* Bottom Main Section */
+
+.bottom-main-section{
+    padding: 30px 180px;
+    text-align: center;
+}
+
+.bottom-main-section .sponsors-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 0px 40px 0px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #FFF4E7;
+    text-align: center;
+    padding:20px;
+    margin-bottom: 30px;
+}
+
